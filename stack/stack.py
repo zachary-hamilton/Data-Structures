@@ -10,7 +10,7 @@ return elements in Last In First Out order.
 3. What is the difference between using an array vs. a linked list when 
    implementing a Stack?
 """
-'''
+
 # using an array
 class Stack:
     def __init__(self):
@@ -32,7 +32,7 @@ class Stack:
             return last
         else:
             return None
-'''
+
 # using a linked list
 class Node:
     def __init__(self, value, next_node=None):
@@ -75,3 +75,5 @@ class Stack:
         else:
             return None
 
+# An array is storing all of the values at once together while in a linked list only the top 
+# is saved in the queue and would have to iterate throu each node to get all of the values.
