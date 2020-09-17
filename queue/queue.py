@@ -79,3 +79,6 @@ class Queue:
             return old_head.value
         else:
             return None
+
+# An array is storing all of the values at once together while in a linked list only the head and tail 
+# are saved in the queue and would have to iterate throu each node to get all of the values.
